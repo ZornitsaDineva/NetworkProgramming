@@ -7,7 +7,8 @@ namespace NetworkProgramming
         static void Main(string[] args)
         {
             SocketExample socketExample = new SocketExample();
-            socketExample.ClientSocketTest();
+            //socketExample.ClientSocketTest();
+            socketExample.StartServer();
         }
     }
 }
